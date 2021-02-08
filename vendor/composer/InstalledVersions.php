@@ -1,15 +1,5 @@
 <?php
 
-
-
-
-
-
-
-
-
-
-
 namespace Composer;
 
 use Composer\Semver\VersionParser;
@@ -24,12 +14,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '4c6d8f4c5407ecd00bff0d48c3660dd89e458a3c',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -151,196 +141,196 @@ private static $installed = array (
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/broadcasting' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/bus' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/cache' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/config' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/console' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/container' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/contracts' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/cookie' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/database' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/encryption' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/events' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/filesystem' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/hashing' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/http' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/log' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/mail' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/notifications' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/pagination' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/pipeline' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/queue' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/redis' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/routing' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/session' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/support' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/translation' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/validation' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'illuminate/view' => 
     array (
       'replaced' => 
       array (
-        0 => 'v5.6.39',
+        0 => 'v5.6.40',
       ),
     ),
     'jakub-onderka/php-console-color' => 
@@ -368,32 +358,32 @@ private static $installed = array (
         0 => '*',
       ),
     ),
-    'kylekatarnls/laravel-carbon-2' => 
+    'kylekatarnls/update-helper' => 
     array (
-      'pretty_version' => '1.0.0',
-      'version' => '1.0.0.0',
+      'pretty_version' => '1.2.1',
+      'version' => '1.2.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '0b68e0454d8e17b31cc42038dda8b7faef8055b3',
+      'reference' => '429be50660ed8a196e0798e5939760f168ec8ce9',
     ),
     'laravel/framework' => 
     array (
-      'pretty_version' => 'v5.6.39',
-      'version' => '5.6.39.0',
+      'pretty_version' => 'v5.6.40',
+      'version' => '5.6.40.0',
       'aliases' => 
       array (
       ),
-      'reference' => '37bb306f516669ab4f888c16003f694313ab299e',
+      'reference' => '5ceadf91f13be89a3338c3d4166a4676272a23bf',
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '4c6d8f4c5407ecd00bff0d48c3660dd89e458a3c',
     ),
     'laravel/tinker' => 
     array (
@@ -473,13 +463,12 @@ private static $installed = array (
     ),
     'nesbot/carbon' => 
     array (
-      'pretty_version' => '2.0.0-beta.2',
-      'version' => '2.0.0.0-beta2',
+      'pretty_version' => '1.26.6',
+      'version' => '1.26.6.0',
       'aliases' => 
       array (
-        0 => '1.25.0',
       ),
-      'reference' => '0a3aecf9625436cd7c440a52f80280d34f1e6c77',
+      'reference' => 'c6820f814496d71da7498d423427e6193d1f57c9',
     ),
     'nikic/php-parser' => 
     array (
@@ -645,8 +634,8 @@ private static $installed = array (
     array (
       'provided' => 
       array (
-        0 => '1.0.0',
-        1 => '1.0',
+        0 => '1.0',
+        1 => '1.0.0',
       ),
     ),
     'psr/simple-cache' => 
